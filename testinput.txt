@@ -1,0 +1,14 @@
+1.654E-21	3.405E-10	3.5	800		200		0.01	1000	10	1	30	100
+epsilon		sigma		cutoff	rho(cm3/mol)	temperature(K)	dt	numstep	stepobs	m	N	nbins
+
+rho->molar volume(converted to rho in code)
+numstep-> no of steps to simulate
+stepobs-> no of steps to record observables/trajectories
+m-> mass
+N-> no of particles
+nbins-> no of bins for histogram
+
+Testing Parameters:
+Solid: rho = 20, temperature = 75, N = 32
+Liquid: rho = 35, temperature = 150, N = 30
+Gas: rho = 800, temperature = 200, N = 30
